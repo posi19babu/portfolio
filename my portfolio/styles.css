@@ -1,0 +1,149 @@
+*{
+    font-family: Arial;
+    font-size: 15px;
+}
+
+body {
+  border: 5px solid #333;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 18px;
+  color: #222;
+}
+
+header{
+    height: 100vh;
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  background: rgba(255,255,255,0.85);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 20px;
+  padding: 30px 20px;
+  backdrop-filter: blur(4px);
+}
+header h1{
+    margin: 0;
+}
+.button{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  color: #4b006e;
+  font-weight: bold;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.button:hover{
+    color: aliceblue;
+    background-color: blue;
+    transform: scale(1.08);
+  box-shadow: 0 0 20px #ffd700, 0 0 40px #fff176;
+}
+.head{
+    font-size: 25px;
+    height: 100;
+    color: aliceblue;
+    font-size: 2.5rem;
+  color: #4b006e;
+  text-shadow: 0 0 10px #fff176, 0 0 20px #ffd700;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+}
+
+h1{
+    color: aqua;
+    font-size: large;
+
+}
+section{
+    height: 100vh;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 40vh;
+  margin: 40px 0;
+  background: rgba(255,255,255,0.7);
+  border-radius: 15px;
+  box-shadow: 0 4px 24px rgba(76, 0, 110, 0.07);
+  padding: 30px 15px;
+  font-size: 1.1rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+section h1 {
+  font-size: 2rem;
+  color: #4b006e;
+  margin-bottom: 15px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+main{
+    padding: 20px;
+}
+.submit{
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aqua;
+
+}
+.submit:hover{
+    color: white;
+    background-color: darkblue;
+}
+input{
+
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 25px;
+}
+footer{
+    height: 100px;
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+  margin-top: 40px;
+  color: #4b006e;
+  font-weight: bold;
+  text-shadow: 0 0 10px #fff176;
+  font-size: 1.1rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.fixedbotton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.fixedbutton:hover{
+    color:white;
+    background-color: darkblue;
+}
